@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "QuickLink",
+  "version": "1.0",
+  "description": "Displays a list of websites and allows adding new websites",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "quicklink.png",
+      "128": "quicklink128.png"
+    }
+  },
+  "permissions": [
+    "tabs",
+    "storage",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+ "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
