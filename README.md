@@ -2,6 +2,8 @@
 
 Search and fast load links (Chrome extension)
 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" width="50"/>
+
 # Version
 
 ![](https://img.shields.io/badge/Version%3A-1.0-success)
